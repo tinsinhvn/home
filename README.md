@@ -1,4 +1,4 @@
-# Machine Learning Algorithms to Practice
+# Sách Tin sinh học Tiếng Việt
 
 ## Về dự án 
 
