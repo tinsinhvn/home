@@ -24,9 +24,10 @@ Bạn có thể gửi bài viết theo hai cách:
 
    Các bước thực hiện:
    1. Clone repository của sách.
-   2. Tạo branch `chuong4/single-cell-rna-sequencing` và chỉnh sửa trên branch đó.
-   3. Git push branch của bạn.
-   4. Tạo pull request với tiêu đề `4.4 Single-cell RNA sequencing`.
+   2. Tạo branch `Chap_4/single-cell-rna-sequencing` và chỉnh sửa trên branch đó.
+   3. Cấu trúc repo: bạn sẽ thêm file notebook (.ipynb) hoặc markdown (.md) vào thư mục `book/content/Chapter[x]`. Sau đó editor/reviewer sẽ check và chỉnh sửa các file cấu trúc còn lại.
+   4. Git push branch của bạn.
+   5. Tạo pull request với tiêu đề `4.4 Single-cell RNA sequencing`.
 
    Xem hướng dẫn pull request [tại đây](https://www.youtube.com/watch?v=MVGgNteyflw).
 
