@@ -1,55 +1,65 @@
-# Your first TeachBook using the GitHub template
+# Machine Learning Algorithms to Practice
 
-The template allows you to start your own TeachBook and hosting that TeachBook online without knowledge on Git, the Jupyter book package, python or anaconda. It doesn't elaborate on the collaborative functionalities of Git or how to edit the book. Please look at our manual (https://teachbooks.tudelft.nl/jupyter-book-manual) to find more about that!
+## Về dự án 
 
-## Features
-- A github repository structure for making a [Jupyter Book](https://github.com/executablebooks/jupyter-book) (`/book`)
-- An empty TeachBook containing an intro page on root, an example markdown page, an example jupyter notebook page, an example references page. and an example credits page. (`/book/_toc.yml`, `/book/_config.yml`, `/book/credits.md`, `/book/intro.md`, `/book/references.md`, `/book/some_content/overview.md`, `/book/some_content/text_and_code.ipynb`)
-- A file ready for adding references (`references.bib`, `/book/references.md`)
-- An example favicon (web browser icon) (`/book/figures/favicon.ico`, `book/_config.yml`.)
-- An example logo (`/book/figures/TUDelft_logo_rgb.png`, `/book/config.yml`)
-- The configuration files set ready to make your Jupyter Notebooks pages work with [live code using our sphinx-thebe extension](https://teachbooks.tudelft.nl/jupyter-book-manual/features/live_code.html) and our recommended settings (`/book/config.yml`)
-- An example of setting up preprocessing your table of contents to hide certain draft chapters for eg. students (`_toc.yml`)
-- A file containing all the recommended software packages (`requirements.txt`)
-- A file containing the recommended license CC BY 4.0 (`LICENSE.md`)
-- Our [GitHub workflow for publishing your TeachBook to GitHub Pages](https://github.com/TeachBooks/deploy-book-workflow) (`.github/workflow/call-deploy-book.yml`)
-- A gitignore file containing standard python filetype to ignore (`.gitignore`)
-- A readme containing information how to use the template, which can adjusted after using the template (`README.md`)
+Đây là dự án viết sách cộng đồng tin sinh học Việt Nam
 
-## How to get started
+Mục tiêu của cuốn sách ** ABC ** đó là hướng dẫn một người mới bắt đầu tiếp cận tin sinh có thể tự đọc hiểu thuật toán, công cụ và áp dụng được vào công việc. Như vậy cuốn sách này sẽ cân bằng giữa lý thuyết và thực hành.
 
-How to use the template is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+## Đóng góp vào dự án
 
-![Demonstration for a public repository](figures/teachbooks-template.gif)
-Video available [here](https://youtu.be/nN3Oi_MVvF0)
+Sẽ có hai mảng chính mà một người có thể đóng góp vào dự án.
+
+- Nghiên cứu: Mục tiêu của nghiên cứu là viết về lý thuyết. Bạn sẽ đăng ký một mục cụ thể ở check list (trừ các chương 1, 2 vì quá đơn giản). Có thể đã trùng với một người khác đã đăng ký cũng được vì chúng ta chấp nhận nhiều bản thảo, cách trình bày và bố cục. Hoặc bạn có thể tự đề xuất viết về một đề tài cụ thể và tự viết. Hình thức này sẽ phù hợp với các bạn đam mê nghiên cứu và có kiến thức nền tảng tốt về tin sinh. Việc tham gia viết lách sẽ giúp bạn rèn luyện được tư duy nghiên cứu và khả năng diễn giải.
+
+- Ứng dụng: Bạn sẽ tham gia phát triển các case studies dựa trên một thuật toán cụ thể liên quan tới nội dung cuốn sách hoặc tự đề xuất những case studies mà bạn nghĩ đó là quan trọng. Các bạn cũng có thể nhận ý kiến tham vấn từ tác giả, dựa trên sự chia sẻ kinh nghiệm từ tác giả để hoàn thiện kỹ năng của mình.
+
+Sau khi hoàn thiện bài viết, bạn sẽ gửi đến dự án thông qua một trong hai cách bên dưới. Phần đóng góp của bạn sẽ được publish ở phần mở rộng của cuốn sách (mục BÀI VIẾT ĐÓNG GÓP) nhưng không nhất thiết nó sẽ được đưa vào cuốn sách. Điều đó phụ thuộc vào chất lượng bài viết và mức độ phù hợp của nó với nội dung cuốn sách. Nhưng bạn yên tâm là nó sẽ nằm ở phần BÀI VIẾT ĐÓNG GÓP nhé, và cộng đồng sẽ vẫn biết đến nội dung bạn viết.
+
+## Cách gửi bài viết
+
+Bạn có thể đóng góp theo hai cách:
+
+* **Cách 1**: Tạo một pull request cho cuốn sách. Tiêu đề sẽ có dạng: `Tên mục - hovaten`. Ví dụ bạn viết về  `scRNA-seq` và có nickname là `ABC` thì có thể để tiêu đề là `4.4 scRNA-seq - ABC`.
+
+Để có thể tạo pull request thì bạn cần thực hiện theo các bước:
+
+1. Clone repository của cuốn sách về. 
+2. Tạo một branch với tên `chuong1/scrnaseq_abc` và thực hiện thay đổi trên branch. 
+3. git push branch của bạn.
+4. Vào mục pull request của repository của tác và create pull request với tiêu đề `4.4 scRNA-seq - ABC`.
+
+Bạn có thể theo dõi hướng dẫn bên dưới về [pull request](https://www.youtube.com/watch?v=MVGgNteyflw).
+
+* **Cách 2**: Bạn gửi trực tiếp note book của bạn cho nhóm theo facebook/discord
 
 
-1. To get started making your TeachBook with our functionalities, use the [template TeachBook](https://github.com/TeachBooks/template) as template:
+## Cách lựa chọn đề tài phù hợp
 
-![Use template](figures/use_template.png)
+Các mục trong cuốn sách sẽ phân cấp về nội dung, từ dễ, trung bình tới khó. Do đó hướng dẫn này sẽ là gợi ý tốt để bạn lựa chọn một đề tài phù hợp với khả năng theo các cấp độ:
 
-2. Fill in a repository name, this name will be used in the future url of your book:
+* Dễ: Là các hướng dẫn về cách sử dụng module, package và cấu trúc cơ sở dữ liệu như list, tuple, dictionary, set,.... Phù hợp với những bạn mới bắt đầu.
+* Trung bình: Các case studies xây dựng mô hình. Các chương không liên quan tới lý thuyết về thuật toán. Phần này sẽ phù hợp với những bạn theo hướng thực hành.
+* Khó: Các lý thuyết về mô hình, thuật toán. Sẽ yêu cầu các bạn có background mạnh về toán, thống kê và kinh nghiệm nghiên cứu.
 
-![Create new repository](figures/create_new_repository.png)
+Bạn đọc có thể ước lượng khả năng của mình và tìm ra mục phù hợp để viết.
 
-3. You can choose for `Private` only if you've GitHub Pro, GitHub Team, GitHub Enterprise Cloud, or GitHub Enterprise Server. Otherwise, you won't be able to publish your TeachBook online.
+## Qui ước chung khi viết bài
 
-4. (Only required for private repositories:) Create a Personal Access Token (classic) with at least the scopes `repo`, `read:org` and `gist` as described in the [github documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens), and add this token with the name `GH_PAT` as a `Repository secret` or `Organization secret` (`Settings` > `Secrets and variables` > `Actions` > `Repository secrets` or `Organization secrets`).
+Để thống nhất chung trên toàn bộ các chương. Khi viết bài bạn cần tuân theo chuẩn [latex](https://github.com/phamdinhkhanh/deepai-book/blob/main/book/latex.md) và cập nhật các thuật ngữ vào ...
 
-5. You need to activate GitHub pages so that your website is published to the internet. As long as you don't do this your TeachBook is not published online. Actually, now that you've taken this template our workflow tries to publish it to GitHub pages, which you didn't have the chance to activate yet. That's why you probably received an email with 'call-deploy-book: Some jobs were not successful' and you see the failed job under `Initial commit`. You can activate GitHub pages by setting the source for GitHub pages to GitHub Actions under `Settings` - `Pages` - `Build and deployment` - `Source` - `GitHub Actions`:
+## Cách viết 
 
-![Activate GitHub Pages](figures/set_up_pages.png)
+Đầu tiên bạn chọn đề tài của mình sẽ viết trong .... Sau khi lựa chọn xong bạn nhớ điền thông tin của mình nhé. Tiếp theo bạn sẽ khảo cứu tài liệu và tiến hành viết. Một bài viết chất lượng là một bài viết:
 
-6. Make an edit to the TeachBook by editing and committing changes to one of the files in the `book/` subdirectory (available under `Code`).  Now checkout the progress of the publishing workflow under `Actions` - `All workflows` -  `call-deploy-book` -`<the most recent workflow run>`. Remember, the first commit which is there has failed because GitHub Pages wasn't activated at the time of `Initial commit`, you could also re-run that job if you don't want to make an edit. You can do so by running the workflow from `Actions` - `All workflows` - `call-deploy-book` - `Initial commit` - `Re-run all jobs` - `Re-run jobs`:
+- Không mắc lỗi chính tả, không lỗi latex.
+- Có các hình minh hoạ diễn giải nội dung.
+- Các mục được sắp đặt hợp lý.
+- Được tham khảo cẩn thận từ nhiều nguồn tài liệu tin cậy.
+- Có code thực hành.
+- Bài tập để hiểu nội dung hơn.
+- Tài liệu đã tham khảo.
 
-![Action](figures/action_re-run.jpeg)
+## Lời cảm ơn
 
-7. When the workflow has finished, visit your build TeachBook at `https://<username or organiszation_name>.github.io/<repository_name>` (case sensitive). For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the shown repository. These links are visible in the action's summary as well, as shown in the figure of step 4.
-
-Additional tip: 
-Set the repository website as your GitHub Pages website under `Code`- `About` - `Settings icon` - `Website` - `Use your GitHub Pages Website`
-
-![GitHub pages as website](figures/use_github_pages_website.png)
-
-## Contribute
-This tool's repository is stored on [GitHub](https://github.com/TeachBooks/template). The `README.md` of the branch `manual_description` is also part of the [TeachBooks manual](https://teachbooks.tudelft.nl/jupyter-book-manual/external/template/README.html) as a submodule. If you'd like to contribute, you can create a fork and open a pull request on the [GitHub repository](https://github.com/TeachBooks/template). To update the `README.md` shown in the TeachBooks manual, create a fork and open a merge request for the [GitLab repository of the manual](https://gitlab.tudelft.nl/interactivetextbooks-citg/jupyter-book-manual). If you intent to clone the manual including its submodules, clone using: `git clone --recurse-submodules git@gitlab.tudelft.nl:interactivetextbooks-citg/jupyter-book-manual.git`.
+Tác giả xin chân thành cảm ơn sự đóng góp từ cộng đồng để hoàn thiện nội dung cuốn sách. Mỗi một đóng góp nhỏ bé sẽ là một mảnh ghép để góp phần **vì một cộng đồng Tin sinh học VN vững mạnh hơn**.
