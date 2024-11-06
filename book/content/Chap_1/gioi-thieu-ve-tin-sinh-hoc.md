@@ -1,0 +1,3 @@
+# Chương 1: Giới thiệu về tin sinh học
+
+Chương 1 cung cấp cái nhìn tổng quan về lĩnh vực tin sinh học, một lĩnh vực liên ngành kết hợp sinh học với các công cụ tính toán để phân tích và giải thích dữ liệu sinh học. Chương này bắt đầu bằng định nghĩa tin sinh học và vai trò của nó trong nghiên cứu sinh học hiện đại, sau đó trình bày lịch sử phát triển từ những ngày đầu giải trình tự gene đến các phân tích dữ liệu hiện đại tốc độ cao. Tiếp theo, chương này thảo luận về tầm quan trọng của tin sinh học trong nhiều lĩnh vực như genomics, y học, và nông nghiệp, đồng thời giới thiệu các khái niệm cốt lõi như so sánh chuỗi, tìm kiếm cơ sở dữ liệu và phân tích dữ liệu. Đây là nền tảng giúp người đọc hiểu rõ hơn về các ứng dụng và kỹ thuật sẽ được đi sâu trong các chương sau.
