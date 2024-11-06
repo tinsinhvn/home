@@ -45,7 +45,7 @@ Bạn có thể tự đánh giá và chọn mục phù hợp với mình.
 
 ## Quy ước chung
 
-Để thống nhất trong các chương, bạn cần tuân theo chuẩn ... và cập nhật các thuật ngữ...
+Để thống nhất trong các chương, bạn cần tuân theo chuẩn [LaTeX](https://github.com/phamdinhkhanh/deepai-book/blob/main/book/latex.md) và cập nhật các thuật ngữ vào file [Term](https://github.com/tinsinhvn/tinsinhvn.github.io/blob/main/book/rules/term.md): 
 
 ## Cách viết bài
 
