@@ -1,65 +1,63 @@
-# Sách Tin sinh học Tiếng Việt
+# Sách Tin Sinh Học Tiếng Việt
 
-## Về dự án 
+## Giới thiệu dự án
 
-Đây là dự án viết sách cộng đồng tin sinh học Việt Nam
+Đây là một dự án cộng đồng nhằm phát triển sách tin sinh học tại Việt Nam.
 
-Mục tiêu của cuốn sách ** ABC ** đó là hướng dẫn một người mới bắt đầu tiếp cận tin sinh có thể tự đọc hiểu thuật toán, công cụ và áp dụng được vào công việc. Như vậy cuốn sách này sẽ cân bằng giữa lý thuyết và thực hành.
+Cuốn sách **ABC** hướng đến việc hỗ trợ người mới bắt đầu học tin sinh tự hiểu được các thuật toán, công cụ và cách ứng dụng vào công việc thực tiễn. Nội dung sẽ cân bằng giữa lý thuyết và thực hành để mang lại hiệu quả học tập tối đa.
 
-## Đóng góp vào dự án
+## Đóng góp cho dự án
 
-Sẽ có hai mảng chính mà một người có thể đóng góp vào dự án.
+Có hai hướng chính mà bạn có thể đóng góp:
 
-- Nghiên cứu: Mục tiêu của nghiên cứu là viết về lý thuyết. Bạn sẽ đăng ký một mục cụ thể ở check list (trừ các chương 1, 2 vì quá đơn giản). Có thể đã trùng với một người khác đã đăng ký cũng được vì chúng ta chấp nhận nhiều bản thảo, cách trình bày và bố cục. Hoặc bạn có thể tự đề xuất viết về một đề tài cụ thể và tự viết. Hình thức này sẽ phù hợp với các bạn đam mê nghiên cứu và có kiến thức nền tảng tốt về tin sinh. Việc tham gia viết lách sẽ giúp bạn rèn luyện được tư duy nghiên cứu và khả năng diễn giải.
+- **Nghiên cứu**: Mục tiêu của phần này là trình bày các lý thuyết chuyên sâu. Bạn có thể đăng ký viết một mục cụ thể (trừ Chương 1 và Chương 2 do nội dung cơ bản). Nếu trùng với người khác đã đăng ký, vẫn có thể chấp nhận nhiều bản thảo khác nhau. Ngoài ra, bạn cũng có thể đề xuất các chủ đề và tự viết. Cách này phù hợp cho những người đam mê nghiên cứu và có nền tảng kiến thức tin sinh tốt, giúp phát triển tư duy nghiên cứu và kỹ năng diễn giải.
 
-- Ứng dụng: Bạn sẽ tham gia phát triển các case studies dựa trên một thuật toán cụ thể liên quan tới nội dung cuốn sách hoặc tự đề xuất những case studies mà bạn nghĩ đó là quan trọng. Các bạn cũng có thể nhận ý kiến tham vấn từ tác giả, dựa trên sự chia sẻ kinh nghiệm từ tác giả để hoàn thiện kỹ năng của mình.
+- **Ứng dụng**: Bạn có thể phát triển các bài tập thực tế dựa trên các thuật toán trong sách hoặc đề xuất các bài tập bạn thấy cần thiết. Tác giả sẽ hỗ trợ góp ý để hoàn thiện kỹ năng. 
 
-Sau khi hoàn thiện bài viết, bạn sẽ gửi đến dự án thông qua một trong hai cách bên dưới. Phần đóng góp của bạn sẽ được publish ở phần mở rộng của cuốn sách (mục BÀI VIẾT ĐÓNG GÓP) nhưng không nhất thiết nó sẽ được đưa vào cuốn sách. Điều đó phụ thuộc vào chất lượng bài viết và mức độ phù hợp của nó với nội dung cuốn sách. Nhưng bạn yên tâm là nó sẽ nằm ở phần BÀI VIẾT ĐÓNG GÓP nhé, và cộng đồng sẽ vẫn biết đến nội dung bạn viết.
+Sau khi hoàn thành bài viết, bạn có thể gửi bài qua một trong hai cách dưới đây. Các đóng góp của bạn sẽ được đăng ở phần mở rộng của sách (mục BÀI VIẾT ĐÓNG GÓP), và sẽ được chọn lọc đưa vào sách chính nếu phù hợp.
 
-## Cách gửi bài viết
+## Hướng dẫn gửi bài viết
 
-Bạn có thể đóng góp theo hai cách:
+Bạn có thể gửi bài viết theo hai cách:
 
-* **Cách 1**: Tạo một pull request cho cuốn sách. Tiêu đề sẽ có dạng: `Tên mục - hovaten`. Ví dụ bạn viết về  `scRNA-seq` và có nickname là `ABC` thì có thể để tiêu đề là `4.4 scRNA-seq - ABC`.
+* **Cách 1**: Tạo một pull request cho sách. Tiêu đề: `Tên mục - hovaten`. Ví dụ: `4.4 scRNA-seq - ABC`.
 
-Để có thể tạo pull request thì bạn cần thực hiện theo các bước:
+   Các bước thực hiện:
+   1. Clone repository của sách.
+   2. Tạo branch `chuong1/scrnaseq_abc` và chỉnh sửa trên branch đó.
+   3. Git push branch của bạn.
+   4. Tạo pull request với tiêu đề `4.4 scRNA-seq - ABC`.
 
-1. Clone repository của cuốn sách về. 
-2. Tạo một branch với tên `chuong1/scrnaseq_abc` và thực hiện thay đổi trên branch. 
-3. git push branch của bạn.
-4. Vào mục pull request của repository của tác và create pull request với tiêu đề `4.4 scRNA-seq - ABC`.
+   Xem hướng dẫn pull request [tại đây](https://www.youtube.com/watch?v=MVGgNteyflw).
 
-Bạn có thể theo dõi hướng dẫn bên dưới về [pull request](https://www.youtube.com/watch?v=MVGgNteyflw).
+* **Cách 2**: Gửi trực tiếp notebook của bạn qua Facebook/Discord nhóm.
 
-* **Cách 2**: Bạn gửi trực tiếp note book của bạn cho nhóm theo facebook/discord
+## Cách chọn đề tài
 
+Nội dung sách được phân theo độ khó để bạn lựa chọn:
 
-## Cách lựa chọn đề tài phù hợp
+- **Dễ**: Các hướng dẫn về module, package, cấu trúc dữ liệu cơ bản (list, tuple, dictionary, set,...). Phù hợp với người mới bắt đầu.
+- **Trung bình**: Các case study xây dựng mô hình, các phần không thiên về thuật toán. Phù hợp với người thực hành.
+- **Khó**: Các lý thuyết về mô hình, thuật toán. Yêu cầu nền tảng tốt về toán, thống kê và kinh nghiệm nghiên cứu.
 
-Các mục trong cuốn sách sẽ phân cấp về nội dung, từ dễ, trung bình tới khó. Do đó hướng dẫn này sẽ là gợi ý tốt để bạn lựa chọn một đề tài phù hợp với khả năng theo các cấp độ:
+Bạn có thể tự đánh giá và chọn mục phù hợp với mình.
 
-* Dễ: Là các hướng dẫn về cách sử dụng module, package và cấu trúc cơ sở dữ liệu như list, tuple, dictionary, set,.... Phù hợp với những bạn mới bắt đầu.
-* Trung bình: Các case studies xây dựng mô hình. Các chương không liên quan tới lý thuyết về thuật toán. Phần này sẽ phù hợp với những bạn theo hướng thực hành.
-* Khó: Các lý thuyết về mô hình, thuật toán. Sẽ yêu cầu các bạn có background mạnh về toán, thống kê và kinh nghiệm nghiên cứu.
+## Quy ước chung
 
-Bạn đọc có thể ước lượng khả năng của mình và tìm ra mục phù hợp để viết.
+Để thống nhất trong các chương, bạn cần tuân theo chuẩn ... và cập nhật các thuật ngữ...
 
-## Qui ước chung khi viết bài
+## Cách viết bài
 
-Để thống nhất chung trên toàn bộ các chương. Khi viết bài bạn cần tuân theo chuẩn [latex](https://github.com/phamdinhkhanh/deepai-book/blob/main/book/latex.md) và cập nhật các thuật ngữ vào ...
+Chọn đề tài và điền thông tin của bạn. Sau đó, nghiên cứu tài liệu và tiến hành viết. Một bài viết chất lượng cần:
 
-## Cách viết 
-
-Đầu tiên bạn chọn đề tài của mình sẽ viết trong .... Sau khi lựa chọn xong bạn nhớ điền thông tin của mình nhé. Tiếp theo bạn sẽ khảo cứu tài liệu và tiến hành viết. Một bài viết chất lượng là một bài viết:
-
-- Không mắc lỗi chính tả, không lỗi latex.
-- Có các hình minh hoạ diễn giải nội dung.
-- Các mục được sắp đặt hợp lý.
-- Được tham khảo cẩn thận từ nhiều nguồn tài liệu tin cậy.
-- Có code thực hành.
-- Bài tập để hiểu nội dung hơn.
-- Tài liệu đã tham khảo.
+- Không lỗi chính tả và latex.
+- Có hình minh họa.
+- Mục lục rõ ràng.
+- Tham khảo từ nhiều nguồn tin cậy.
+- Có mã nguồn thực hành.
+- Bài tập hỗ trợ hiểu sâu nội dung.
+- Liệt kê tài liệu tham khảo.
 
 ## Lời cảm ơn
 
-Tác giả xin chân thành cảm ơn sự đóng góp từ cộng đồng để hoàn thiện nội dung cuốn sách. Mỗi một đóng góp nhỏ bé sẽ là một mảnh ghép để góp phần **vì một cộng đồng Tin sinh học VN vững mạnh hơn**.
+Tác giả xin cảm ơn sự đóng góp từ cộng đồng để hoàn thiện nội dung sách. Mỗi đóng góp nhỏ sẽ tạo nên một cộng đồng Tin sinh học Việt Nam mạnh mẽ hơn.
