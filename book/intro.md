@@ -1,6 +1,6 @@
 (intro)=
-# Welcome to the Template Book
+# Sách Tin sinh học tiếng Việt
 
-_Write book intro here. This is the first page the student will see when opening the url._
+Đang cập nhật
 
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative.
+Vì cộng đồng #vicongdong #riceshirtricemoney
