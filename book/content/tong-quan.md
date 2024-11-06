@@ -89,7 +89,7 @@ Giải thích các phương pháp dự đoán cấu trúc protein bằng cách m
 Bao gồm các phương pháp tính toán để hiểu dữ liệu cấu trúc và dự đoán hành vi phân tử.
 
 ## Chương 8: Công cụ và Phần mềm tin sinh học
-### 8.1 Tổng quan về các công cụ chính
+### 8.1 Tổng quan về các công cụ tin sinh
 Giới thiệu các công cụ tin sinh học và thư viện phần mềm phổ biến như Bioconductor và Biopython.
 
 ### 8.2 Phân tích và Trực quan hóa dữ liệu
@@ -99,14 +99,14 @@ Thảo luận về các công cụ để phân tích và trực quan hóa dữ l
 Bao gồm tài nguyên điện toán đám mây và tính toán hiệu năng cao để xử lý các tập dữ liệu tin sinh học lớn.
 
 ### 8.4 Phát triển và tự động hóa quy trình
-Giải thích cách tự động hóa quy trình tin sinh học để tăng hiệu quả và tính tái lập.
+Giải thích cách tự động hóa quy trình tin sinh học để tăng hiệu quả và tính tái lập. Vd: snakemake, NextFlow
 
 ## Chương 9: Học máy và Tin sinh học
 ### 9.1 Giới thiệu về Học máy trong Tin sinh học
 Cung cấp tổng quan về các ứng dụng của học máy trong tin sinh học.
 
 ### 9.2 Các thuật toán và mô hình chính
-Mô tả các mô hình học máy như SVM, rừng ngẫu nhiên, và mạng nơ-ron được sử dụng trong dữ liệu sinh học.
+Mô tả các mô hình học máy như SVM, Random Forest, và mạng nơ-ron được sử dụng trong dữ liệu sinh học.
 
 ### 9.3 Ứng dụng của ML trong Tin sinh học
 Khám phá các ứng dụng trong phân tích chuỗi, phân tích hình ảnh, và dự đoán tính chất phân tử.
