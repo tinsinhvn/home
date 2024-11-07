@@ -8,9 +8,9 @@
 ### Lịch sử phát triển
 Tóm tắt sự phát triển của tin sinh học, từ giai đoạn giải trình tự gene ban đầu đến phân tích dữ liệu thông lượng cao hiện đại.
 
-### Học thuyết trung tâm (Central dogma)
-Giới thiệu về học thuyết trung tâm trong sinh học phân tử, mô tả quá trình thông tin di truyền truyền từ DNA sang RNA và sau đó chuyển hóa thành protein. 
-Thảo luận về tầm quan trọng của quá trình này trong các ứng dụng nghiên cứu sinh học và y sinh.
+### Học thuyết trung tâm - Central dogma
+Giới thiệu về học thuyết trung tâm trong sinh học phân tử, mô tả quá trình thông tin di truyền truyền từ DNA sang RNA và sau đó chuyển hóa thành protein. Thảo luận về tầm quan trọng của quá trình này trong các ứng dụng nghiên cứu sinh học và y sinh.
+
 ---
 
 ## Chương 2: Dữ liệu sinh học và Cơ sở dữ liệu
