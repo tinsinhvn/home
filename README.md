@@ -49,7 +49,7 @@ Bạn có thể tự đánh giá và chọn mục phù hợp với mình.
 
 ## Cách viết bài
 
-Chọn đề tài và điền thông tin của bạn. Sau đó, nghiên cứu tài liệu và tiến hành viết. Một bài viết chất lượng cần:
+Chọn đề tài và điền thông tin của bạn vào trang [Google sheet](https://docs.google.com/spreadsheets/d/1BUbqKpCzvUptn677pwb8JVTeLKzihH5FClrG79Wu374/edit?usp=sharing). Sau đó, nghiên cứu tài liệu và tiến hành viết. Một bài viết chất lượng cần:
 
 - Không lỗi chính tả và latex.
 - Có hình minh họa.
