@@ -7,9 +7,9 @@ parts:
     - file: content/tong-quan.md
 
     - file: content/Chap_1/gioi-thieu-ve-tin-sinh-hoc.md
-
       sections:
-
       - file: content/Chap_1/tin-sinh-hoc-la-gi.ipynb
       
-    - file: references.md
+    - file: content/Chap_6/gioi-thieu-chuong-6.md
+      sections:
+      - file: content/Chap_6/Quality_control.ipynb
