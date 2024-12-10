@@ -36,3 +36,4 @@ sphinx:
 
 bibtex_bibfiles: 
   - content/Chap_6/Quality_control.bib
+  - content/Chap_6/Normalization.bib

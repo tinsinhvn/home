@@ -13,3 +13,4 @@ parts:
     - file: content/Chap_6/gioi-thieu-chuong-6.md
       sections:
       - file: content/Chap_6/Quality_control.ipynb
+      - file: content/Chap_6/Normalization.ipynb
